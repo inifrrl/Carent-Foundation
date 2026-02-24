@@ -236,22 +236,22 @@ function Group5() {
         </div>
       </div>
       
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[856px] mt-[120px] relative row-1 text-[24px] text-center text-white w-[212px]">
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[856px] mt-[120px] relative row-1 text-[20px] text-center text-white w-[212px]">
         <p className="leading-[normal] whitespace-pre-wrap">{`Government & Public Institution Partnership`}</p>
       </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[10px] mt-[229px] relative row-1 text-[24px] text-center text-white w-[236px]">
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[10px] mt-[229px] relative row-1 text-[20px] text-center text-white w-[236px]">
         <p className="leading-[normal] whitespace-pre-wrap">{`Academic & Training Institution Partnership`}</p>
       </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[853px] mt-[292px] relative row-1 text-[24px] text-center text-white w-[151px]">
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[853px] mt-[292px] relative row-1 text-[20px] text-center text-white w-[151px]">
         <p className="leading-[normal] whitespace-pre-wrap">BUMN Partnership</p>
       </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[1077px] mt-[218px] relative row-1 text-[24px] text-center text-white w-[295px]">
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[1077px] mt-[218px] relative row-1 text-[20px] text-center text-white w-[295px]">
         <p className="leading-[normal] whitespace-pre-wrap">{`International Organization & Donor Partnership`}</p>
       </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[55px] justify-center ml-[330px] mt-[147px] relative row-1 text-[24px] text-center text-white w-[166px]">
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[55px] justify-center ml-[330px] mt-[147px] relative row-1 text-[20px] text-center text-white w-[166px]">
         <p className="leading-[normal] whitespace-pre-wrap">{`Private Sector & Industry Partnership`}</p>
       </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[262px] mt-[338px] relative row-1 text-[24px] text-center text-white w-[205px]">
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[262px] mt-[338px] relative row-1 text-[20px] text-center text-white w-[205px]">
         <p className="leading-[normal] whitespace-pre-wrap">{`Community & Civil Society Partnership`}</p>
       </div>
       <div className="col-1 flex h-[74px] items-center justify-center ml-[686px] mt-0 relative row-1 w-0" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
