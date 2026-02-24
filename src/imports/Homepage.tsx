@@ -159,96 +159,117 @@ function Group4() {
 
 function Group5() {
   return (
-    <div className="flex flex-col items-center justify-center w-full max-w-6xl mx-auto py-10 relative">
+    <div className="w-full flex justify-center items-center overflow-hidden min-h-[300px] md:min-h-[550px] py-10">
       
-      {/* Panah (Arrow) di atas */}
-      <div className="flex justify-center w-full mb-6">
-        <div className="w-[15px] h-[74px]">
+      {/* Canvas Wrapper - Akan membesar/mengecil otomatis tanpa merusak posisi */}
+      <div className="relative w-[1361px] h-[450px] transform scale-[0.25] min-[400px]:scale-[0.35] sm:scale-[0.5] md:scale-[0.7] lg:scale-[0.9] xl:scale-100 origin-center">
+        
+        {/* Panah Atas */}
+        <div className="absolute left-[686px] top-[70px] w-[15px] h-[74px]">
           <svg className="block w-full h-full rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 80.7735 14.7279">
             <path d={svgPaths.p10fa9bf0} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
           </svg>
         </div>
-      </div>
 
-      {/* Baris Atas */}
-      <div className="flex flex-wrap justify-center items-center gap-10 md:gap-20 -mb-4 md:-mb-10 z-0">
-        {/* Private Sector */}
-        <div className="relative flex items-center justify-center w-[256px] h-[140px] hover:scale-105 transition-transform duration-300">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
-            <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" />
-          </svg>
-          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] md:text-[20px] text-center px-6 leading-tight">
-            {`Private Sector &\nIndustry Partnership`}
-          </p>
-        </div>
-
-        {/* Government */}
-        <div className="relative flex items-center justify-center w-[240px] h-[131px] hover:scale-105 transition-transform duration-300">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 131.367 240.285">
-            <path d={svgPaths.p1a7b6cc0} fill="var(--fill-0, #1E08B1)" />
-          </svg>
-          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] md:text-[20px] text-center px-6 leading-tight">
-            {`Government & Public\nInstitution Partnership`}
-          </p>
-        </div>
-      </div>
-
-      {/* Baris Tengah */}
-      <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 z-10">
-        {/* Academic */}
-        <div className="relative flex items-center justify-center w-[256px] h-[140px] hover:scale-105 transition-transform duration-300">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
-            <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" />
-          </svg>
-          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] md:text-[20px] text-center px-6 leading-tight">
+        {/* KIRI - Academic (Paling Kiri) */}
+        <div className="absolute left-[0px] top-[198px] w-[256px] h-[140px] flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="-rotate-90 w-[140px] h-[256px]">
+              <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
+                <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" />
+              </svg>
+            </div>
+          </div>
+          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] text-center px-4 leading-tight pointer-events-none">
             {`Academic & Training\nInstitution Partnership`}
           </p>
         </div>
 
-        {/* Center: PARTNER TYPE */}
-        <div className="relative flex items-center justify-center w-[289px] h-[158px] hover:scale-105 transition-transform duration-300 mx-2 md:mx-4">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 158 289">
-            <path d={svgPaths.pd46f3b0} fill="var(--fill-0, #D9D9D9)" />
-          </svg>
-          <p className="relative z-10 font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[26px] md:text-[30px] text-center leading-tight">
-            PARTNER<br/>TYPE
+        {/* KIRI - Private Sector (Kiri Atas) */}
+        <div className="absolute left-[285px] top-[105px] w-[256px] h-[140px] flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="-rotate-90 w-[140px] h-[256px]">
+              <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
+                <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" />
+              </svg>
+            </div>
+          </div>
+          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] text-center px-4 leading-tight pointer-events-none">
+            {`Private Sector &\nIndustry Partnership`}
           </p>
         </div>
 
-        {/* International */}
-        <div className="relative flex items-center justify-center w-[278px] h-[147px] hover:scale-105 transition-transform duration-300">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 147 278">
-            <path d={svgPaths.p2cb97800} fill="var(--fill-0, #1E08B1)" />
-          </svg>
-          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] md:text-[20px] text-center px-8 leading-tight">
-            {`International Organization\n& Donor Partnership`}
-          </p>
-        </div>
-      </div>
-
-      {/* Baris Bawah */}
-      <div className="flex flex-wrap justify-center items-center gap-10 md:gap-24 -mt-4 md:-mt-10 z-0">
-        {/* Community */}
-        <div className="relative flex items-center justify-center w-[242px] h-[129px] hover:scale-105 transition-transform duration-300">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 129 242">
-            <path d={svgPaths.p25e4de00} fill="var(--fill-0, #1E08B1)" />
-          </svg>
-          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[16px] md:text-[18px] text-center px-6 leading-tight">
+        {/* KIRI - Community (Kiri Bawah) */}
+        <div className="absolute left-[244px] top-[312px] w-[242px] h-[129px] flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="-rotate-90 w-[129px] h-[242px]">
+              <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 129 242">
+                <path d={svgPaths.p25e4de00} fill="var(--fill-0, #1E08B1)" />
+              </svg>
+            </div>
+          </div>
+          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[17px] text-center px-4 leading-tight pointer-events-none">
             {`Community & Civil\nSociety Partnership`}
           </p>
         </div>
 
-        {/* BUMN */}
-        <div className="relative flex items-center justify-center w-[179px] h-[85px] hover:scale-105 transition-transform duration-300">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" fill="none" preserveAspectRatio="none" viewBox="0 0 85 179">
-            <path d={svgPaths.p25d7b900} fill="var(--fill-0, #1E08B1)" />
-          </svg>
-          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[16px] md:text-[18px] text-center leading-tight">
+        {/* TENGAH - PARTNER TYPE */}
+        <div className="absolute left-[550px] top-[183px] w-[289px] h-[158px] flex items-center justify-center hover:scale-105 transition-transform duration-300 z-10">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="-rotate-90 w-[158px] h-[289px]">
+              <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 158 289">
+                <path d={svgPaths.pd46f3b0} fill="var(--fill-0, #D9D9D9)" />
+              </svg>
+            </div>
+          </div>
+          <p className="relative z-10 font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[30px] text-center leading-tight pointer-events-none">
+            PARTNER<br/>TYPE
+          </p>
+        </div>
+
+        {/* KANAN - Government (Kanan Atas) */}
+        <div className="absolute left-[839px] top-[93px] w-[240px] h-[131px] flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="-rotate-90 w-[131px] h-[240px]">
+              <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 131.367 240.285">
+                <path d={svgPaths.p1a7b6cc0} fill="var(--fill-0, #1E08B1)" />
+              </svg>
+            </div>
+          </div>
+          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] text-center px-4 leading-tight pointer-events-none">
+            {`Government & Public\nInstitution Partnership`}
+          </p>
+        </div>
+
+        {/* KANAN - BUMN (Kanan Bawah) */}
+        <div className="absolute left-[839px] top-[292px] w-[179px] h-[85px] flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="-rotate-90 w-[85px] h-[179px]">
+              <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 85 179">
+                <path d={svgPaths.p25d7b900} fill="var(--fill-0, #1E08B1)" />
+              </svg>
+            </div>
+          </div>
+          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[16px] text-center leading-tight pointer-events-none">
             BUMN Partnership
           </p>
         </div>
-      </div>
 
+        {/* KANAN - International (Paling Kanan) */}
+        <div className="absolute left-[1083px] top-[183px] w-[278px] h-[147px] flex items-center justify-center hover:scale-105 transition-transform duration-300">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="-rotate-90 w-[147px] h-[278px]">
+              <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 147 278">
+                <path d={svgPaths.p2cb97800} fill="var(--fill-0, #1E08B1)" />
+              </svg>
+            </div>
+          </div>
+          <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[18px] text-center px-6 leading-tight pointer-events-none">
+            {`International Organization\n& Donor Partnership`}
+          </p>
+        </div>
+
+      </div>
     </div>
   );
 }
