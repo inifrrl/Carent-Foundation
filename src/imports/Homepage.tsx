@@ -162,7 +162,7 @@ function Group5() {
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       
       {/* ========================================================= */}
-      {/* BAGIAN "partnership type" (Teks Diubah jadi Kecil)      */}
+      {/* BAGIAN "PARTNERSHIP TYPE" (Teks Kapital + Spasi Baris)  */}
       {/* ========================================================= */}
       <div className="col-1 ml-[550px] mt-[183px] relative row-1 w-[289px] h-[158px] flex items-center justify-center z-10 hover:scale-105 transition-transform duration-300">
         {/* Background Abu-abu */}
@@ -173,9 +173,9 @@ function Group5() {
             </svg>
           </div>
         </div>
-        {/* Teks (Diubah jadi lowercase) */}
-        <p className="relative z-10 font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[30px] text-center leading-tight pointer-events-none">
-          partnership<br />type
+        {/* Teks: Kapital, 2 baris, leading-normal untuk spacing */}
+        <p className="relative z-10 font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[30px] text-center leading-normal pointer-events-none">
+          PARTNERSHIP<br />TYPE
         </p>
       </div>
       {/* ========================================================= */}
