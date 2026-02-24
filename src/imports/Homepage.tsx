@@ -162,7 +162,7 @@ function Group5() {
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       
       {/* ========================================================= */}
-      {/* BAGIAN "PARTNER TYPE" YANG SUDAH DIPERBAIKI (DIGABUNG)  */}
+      {/* BAGIAN "partnership type" (Teks Diubah jadi Kecil)      */}
       {/* ========================================================= */}
       <div className="col-1 ml-[550px] mt-[183px] relative row-1 w-[289px] h-[158px] flex items-center justify-center z-10 hover:scale-105 transition-transform duration-300">
         {/* Background Abu-abu */}
@@ -173,14 +173,14 @@ function Group5() {
             </svg>
           </div>
         </div>
-        {/* Teks */}
+        {/* Teks (Diubah jadi lowercase) */}
         <p className="relative z-10 font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[30px] text-center leading-tight pointer-events-none">
-          PARTNER<br />TYPE
+          partnership<br />type
         </p>
       </div>
       {/* ========================================================= */}
 
-      {/* SISA KODE DI BAWAH INI ADALAH KODE ASLI KAMU TANPA UBAHAN */}
+      {/* SISA KODE DI BAWAH INI TETAP SAMA */}
       <div className="col-1 flex h-[131.367px] items-center justify-center ml-[839px] mt-[93px] relative row-1 w-[240.285px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
         <div className="-rotate-90 flex-none">
           <div className="h-[240.285px] relative w-[131.367px]">
@@ -226,50 +226,7 @@ function Group5() {
           </div>
         </div>
       </div>
-      <div className="col-1 flex h-[147px] items-center justify-center ml-[1083px] mt-[183px] relative row-1 w-[278px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
-        <div className="-rotate-90 flex-none">
-          <div className="h-[278px] relative w-[147px]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 147 278">
-              <path d={svgPaths.p2cb97800} fill="var(--fill-0, #1E08B1)" id="Polygon 3" />
-            </svg>
-          </div>
-        </div>
-      </div>
-      
-      {/* Teks Partner Type yang lama sudah dihapus dan digabung ke atas */}
-      
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[856px] mt-[120px] relative row-1 text-[24px] text-center text-white w-[212px]">
-        <p className="leading-[normal] whitespace-pre-wrap">{`Government & Public Institution Partnership`}</p>
-      </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[10px] mt-[229px] relative row-1 text-[24px] text-center text-white w-[236px]">
-        <p className="leading-[normal] whitespace-pre-wrap">{`Academic & Training Institution Partnership`}</p>
-      </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[853px] mt-[292px] relative row-1 text-[24px] text-center text-white w-[151px]">
-        <p className="leading-[normal] whitespace-pre-wrap">BUMN Partnership</p>
-      </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[1077px] mt-[218px] relative row-1 text-[24px] text-center text-white w-[295px]">
-        <p className="leading-[normal] whitespace-pre-wrap">{`International Organization & Donor Partnership`}</p>
-      </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[55px] justify-center ml-[330px] mt-[147px] relative row-1 text-[24px] text-center text-white w-[166px]">
-        <p className="leading-[normal] whitespace-pre-wrap">{`Private Sector & Industry Partnership`}</p>
-      </div>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[262px] mt-[338px] relative row-1 text-[24px] text-center text-white w-[205px]">
-        <p className="leading-[normal] whitespace-pre-wrap">{`Community & Civil Society Partnership`}</p>
-      </div>
-      <div className="col-1 flex h-[74px] items-center justify-center ml-[686px] mt-0 relative row-1 w-0" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
-        <div className="flex-none rotate-90">
-          <div className="h-0 relative w-[74px]">
-            <div className="absolute inset-[-7.36px_-1.35%_-7.36px_-7.8%]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 80.7735 14.7279">
-                <path d={svgPaths.p10fa9bf0} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+      <div className="col-1 flex h-[147px] items-center justify-center ml-[1083px] mt-[183px
 function Group6() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
