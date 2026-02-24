@@ -224,7 +224,7 @@ function Group5() {
         </div>
       </div>
       <p className="col-1 font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[39px] leading-[normal] ml-[580px] mt-[242px] relative row-1 text-[#1e08b1] text-[30px] w-[226px] whitespace-pre-wrap">PARTNER TYPE</p>
-      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[856px] mt-[120px] relative row-1 text-[24px] text-center text-white w-[212px]">
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[400px] mt-[120px] relative row-1 text-[24px] text-center text-white w-[212px]">
         <p className="leading-[normal] whitespace-pre-wrap">{`Government & Public Institution Partnership`}</p>
       </div>
       <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[10px] mt-[229px] relative row-1 text-[24px] text-center text-white w-[236px]">
