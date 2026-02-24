@@ -158,154 +158,103 @@ function Group4() {
 }
 
 function Group5() {
-  return (
-    <div className="w-full overflow-hidden flex justify-center items-center py-10 min-h-[400px]">
-      {/* CSS Grid - Dijamin aman saat di-deploy karena ini layout standar bawaan web */}
-      <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-3 gap-y-8 md:gap-y-0 w-full max-w-[1250px] place-items-center">
-
-        {/* --- BARIS 1 --- */}
-        <div className="hidden md:block"></div> {/* Kolom 1 Kosong */}
-
-        <div className="md:translate-y-16">
-          {/* Private Sector */}
-          <div className="relative flex items-center justify-center w-[256px] h-[140px] hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="-rotate-90 w-[140px] h-[256px]">
-                <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
-                  <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" />
-                </svg>
-              </div>
-            </div>
-            <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[17px] text-center px-4 leading-tight pointer-events-none">
-              {`Private Sector &\nIndustry Partnership`}
-            </p>
-          </div>
-        </div>
-
-        {/* Panah di Tengah Atas */}
-        <div className="hidden md:flex flex-col justify-end items-center h-full pb-2 md:translate-y-12">
-          <div className="rotate-90 w-[60px] h-[15px]">
-            <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 80.7735 14.7279">
-              <path d={svgPaths.p10fa9bf0} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
-            </svg>
-          </div>
-        </div>
-
-        <div className="md:translate-y-10">
-          {/* Government */}
-          <div className="relative flex items-center justify-center w-[240px] h-[131px] hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="-rotate-90 w-[131px] h-[240px]">
-                <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 131.367 240.285">
-                  <path d={svgPaths.p1a7b6cc0} fill="var(--fill-0, #1E08B1)" />
-                </svg>
-              </div>
-            </div>
-            <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[17px] text-center px-4 leading-tight pointer-events-none">
-              {`Government & Public\nInstitution Partnership`}
-            </p>
-          </div>
-        </div>
-
-        <div className="hidden md:block"></div> {/* Kolom 5 Kosong */}
-
-
-        {/* --- BARIS 2 --- */}
-        <div className="md:translate-y-6">
-          {/* Academic */}
-          <div className="relative flex items-center justify-center w-[256px] h-[140px] hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="-rotate-90 w-[140px] h-[256px]">
-                <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
-                  <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" />
-                </svg>
-              </div>
-            </div>
-            <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[17px] text-center px-4 leading-tight pointer-events-none">
-              {`Academic & Training\nInstitution Partnership`}
-            </p>
-          </div>
-        </div>
-
-        <div className="hidden md:block"></div>
-
-        <div className="z-10">
-          {/* PARTNER TYPE */}
-          <div className="relative flex items-center justify-center w-[289px] h-[158px] hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="-rotate-90 w-[158px] h-[289px]">
-                <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 158 289">
-                  <path d={svgPaths.pd46f3b0} fill="var(--fill-0, #D9D9D9)" />
-                </svg>
-              </div>
-            </div>
-            <p className="relative z-10 font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[28px] text-center leading-tight pointer-events-none">
-              PARTNER<br/>TYPE
-            </p>
-          </div>
-        </div>
-
-        <div className="hidden md:block"></div>
-
-        <div className="md:-translate-y-2">
-          {/* International */}
-          <div className="relative flex items-center justify-center w-[278px] h-[147px] hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="-rotate-90 w-[147px] h-[278px]">
-                <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 147 278">
-                  <path d={svgPaths.p2cb97800} fill="var(--fill-0, #1E08B1)" />
-                </svg>
-              </div>
-            </div>
-            <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[17px] text-center px-6 leading-tight pointer-events-none">
-              {`International Organization\n& Donor Partnership`}
-            </p>
-          </div>
-        </div>
-
-
-        {/* --- BARIS 3 --- */}
-        <div className="hidden md:block"></div>
-
-        <div className="md:-translate-y-8">
-          {/* Community */}
-          <div className="relative flex items-center justify-center w-[242px] h-[129px] hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="-rotate-90 w-[129px] h-[242px]">
-                <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 129 242">
-                  <path d={svgPaths.p25e4de00} fill="var(--fill-0, #1E08B1)" />
-                </svg>
-              </div>
-            </div>
-            <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[16px] text-center px-4 leading-tight pointer-events-none">
-              {`Community & Civil\nSociety Partnership`}
-            </p>
-          </div>
-        </div>
-
-        <div className="hidden md:block"></div>
-
-        <div className="md:-translate-y-16">
-          {/* BUMN */}
-          <div className="relative flex items-center justify-center w-[179px] h-[85px] hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="-rotate-90 w-[85px] h-[179px]">
-                <svg className="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 85 179">
-                  <path d={svgPaths.p25d7b900} fill="var(--fill-0, #1E08B1)" />
-                </svg>
-              </div>
-            </div>
-            <p className="relative z-10 font-['Work_Sans',sans-serif] text-white text-[15px] text-center leading-tight pointer-events-none">
-              BUMN Partnership
-            </p>
-          </div>
-        </div>
-
-        <div className="hidden md:block"></div>
-
-      </div>
-    </div>
-  );
+  return (
+    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
+      <div className="col-1 flex h-[158px] items-center justify-center ml-[550px] mt-[183px] relative row-1 w-[289px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="-rotate-90 flex-none">
+          <div className="h-[289px] relative w-[158px]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 158 289">
+              <path d={svgPaths.pd46f3b0} fill="var(--fill-0, #D9D9D9)" id="Polygon 1" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="col-1 flex h-[131.367px] items-center justify-center ml-[839px] mt-[93px] relative row-1 w-[240.285px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="-rotate-90 flex-none">
+          <div className="h-[240.285px] relative w-[131.367px]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 131.367 240.285">
+              <path d={svgPaths.p1a7b6cc0} fill="var(--fill-0, #1E08B1)" id="Polygon 2" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="col-1 flex h-[139.958px] items-center justify-center ml-[285px] mt-[105px] relative row-1 w-[256px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="-rotate-90 flex-none">
+          <div className="h-[256px] relative w-[139.958px]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
+              <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" id="Polygon 6" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="col-1 flex h-[139.958px] items-center justify-center ml-0 mt-[198px] relative row-1 w-[256px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="-rotate-90 flex-none">
+          <div className="h-[256px] relative w-[139.958px]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 139.958 256">
+              <path d={svgPaths.p30f8e100} fill="var(--fill-0, #1E08B1)" id="Polygon 6" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="col-1 flex h-[129px] items-center justify-center ml-[244px] mt-[312px] relative row-1 w-[242px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="-rotate-90 flex-none">
+          <div className="h-[242px] relative w-[129px]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 129 242">
+              <path d={svgPaths.p25e4de00} fill="var(--fill-0, #1E08B1)" id="Polygon 8" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="col-1 flex h-[85px] items-center justify-center ml-[839px] mt-[292px] relative row-1 w-[179px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="-rotate-90 flex-none">
+          <div className="h-[179px] relative w-[85px]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 85 179">
+              <path d={svgPaths.p25d7b900} fill="var(--fill-0, #1E08B1)" id="Polygon 4" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="col-1 flex h-[147px] items-center justify-center ml-[1083px] mt-[183px] relative row-1 w-[278px]" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="-rotate-90 flex-none">
+          <div className="h-[278px] relative w-[147px]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 147 278">
+              <path d={svgPaths.p2cb97800} fill="var(--fill-0, #1E08B1)" id="Polygon 3" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <p className="col-1 font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[39px] leading-[normal] ml-[580px] mt-[242px] relative row-1 text-[#1e08b1] text-[30px] w-[226px] whitespace-pre-wrap">PARTNER TYPE</p>
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[856px] mt-[120px] relative row-1 text-[24px] text-center text-white w-[212px]">
+        <p className="leading-[normal] whitespace-pre-wrap">{`Government & Public Institution Partnership`}</p>
+      </div>
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[10px] mt-[229px] relative row-1 text-[24px] text-center text-white w-[236px]">
+        <p className="leading-[normal] whitespace-pre-wrap">{`Academic & Training Institution Partnership`}</p>
+      </div>
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[853px] mt-[292px] relative row-1 text-[24px] text-center text-white w-[151px]">
+        <p className="leading-[normal] whitespace-pre-wrap">BUMN Partnership</p>
+      </div>
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[1077px] mt-[218px] relative row-1 text-[24px] text-center text-white w-[295px]">
+        <p className="leading-[normal] whitespace-pre-wrap">{`International Organization & Donor Partnership`}</p>
+      </div>
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[55px] justify-center ml-[330px] mt-[147px] relative row-1 text-[24px] text-center text-white w-[166px]">
+        <p className="leading-[normal] whitespace-pre-wrap">{`Private Sector & Industry Partnership`}</p>
+      </div>
+      <div className="col-1 flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[77px] justify-center ml-[262px] mt-[338px] relative row-1 text-[24px] text-center text-white w-[205px]">
+        <p className="leading-[normal] whitespace-pre-wrap">{`Community & Civil Society Partnership`}</p>
+      </div>
+      <div className="col-1 flex h-[74px] items-center justify-center ml-[686px] mt-0 relative row-1 w-0" style={{ "--transform-inner-width": "1185.59375", "--transform-inner-height": "154" } as React.CSSProperties}>
+        <div className="flex-none rotate-90">
+          <div className="h-0 relative w-[74px]">
+            <div className="absolute inset-[-7.36px_-1.35%_-7.36px_-7.8%]">
+              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 80.7735 14.7279">
+                <path d={svgPaths.p10fa9bf0} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function Group6() {
