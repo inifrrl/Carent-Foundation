@@ -322,4 +322,4 @@ export default function ProgramMobile() {
   );
 }
 
-ini program mobile.tsx
+
