@@ -156,9 +156,10 @@ function Group5() {
       <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-[338px] relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute inset-[-22.09px_-4.48%_-22.09px_0]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 70 44.1838">
-                <path d={svgPaths.p2bd3aa00} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
@@ -179,9 +180,10 @@ function Group5() {
       <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-0 relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute inset-[-22.09px_-4.48%_-22.09px_0]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 70 44.1838">
-                <path d={svgPaths.p2bd3aa00} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
@@ -221,9 +223,10 @@ function Group7() {
       <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-[337px] relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute inset-[-22.09px_-4.48%_-22.09px_0]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 70 44.1838">
-                <path d={svgPaths.p2bd3aa00} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
@@ -232,9 +235,10 @@ function Group7() {
       <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-0 relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute inset-[-22.09px_-4.48%_-22.09px_0]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 70 44.1838">
-                <path d={svgPaths.p2bd3aa00} fill="var(--stroke-0, #1E08B1)" id="Arrow 1" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
