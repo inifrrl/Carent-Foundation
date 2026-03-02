@@ -132,25 +132,25 @@
   }
 }
 
-@keyframes slideInFromLeft {
+@keyframes slideInFromRight {
   from {
+    transform: translateX(100%);
     opacity: 0;
-    transform: translateX(-30px);
   }
   to {
-    opacity: 1;
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
-@keyframes slideInFromRight {
+@keyframes slideInFromLeft {
   from {
+    transform: translateX(-50px);
     opacity: 0;
-    transform: translateX(30px);
   }
   to {
-    opacity: 1;
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -468,3 +468,8 @@ html {
 .paragraph-6 { animation-delay: 1.6s; }
 .paragraph-7 { animation-delay: 1.8s; }
 .paragraph-8 { animation-delay: 2s; }
+
+/* Mobile menu slide animation */
+.animate-slide-in-right {
+  animation: slideInFromRight 0.3s ease-out;
+}
