@@ -154,7 +154,7 @@ function Group5() {
         <span className="leading-[normal]">{` Employability, Soft Skills & Career Readiness`}</span>
       </p>
       <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-[338px] relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
-        <div className="flex-none rotate-90">
+        <div className="flex-none rotate-180">
           <div className="h-0 relative w-[67px]">
             <div className="absolute inset-[-22.09px_-4.48%_-22.09px_0]">
               <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 70 44.1838">
@@ -177,7 +177,7 @@ function Group5() {
         <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Innovation, Creativity & Entrepreneurship `}</span>
       </p>
       <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-0 relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
-        <div className="flex-none rotate-90">
+        <div className="flex-none rotate-180">
           <div className="h-0 relative w-[67px]">
             <div className="absolute inset-[-22.09px_-4.48%_-22.09px_0]">
               <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 70 44.1838">
