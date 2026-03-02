@@ -131,20 +131,21 @@ function Group5() {
         <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">Flagship Focus:</span>
         <span className="leading-[normal]">{` Employability, Soft Skills & Career Readiness`}</span>
       </p>
-     <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-0 relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
-  <div className="flex-none"> {/* rotate-90 dihapus di sini */}
-    <div className="h-0 relative w-[67px]">
-      {/* Container ini dibuat ke tengah biar panahnya pas */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
-        {/* Ini SVG panah yang baru */}
-        <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-          <line x1="12" y1="5" x2="12" y2="19" />
-          <polyline points="19 12 12 19 5 12" />
-        </svg>
+      
+      {/* Panah 1 (Kiri Atas) - Versi Panjang */}
+      <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-0 relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+        <div className="flex-none">
+          <div className="h-0 relative w-[67px]">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
+                <line x1="12" y1="2" x2="12" y2="65" />
+                <polyline points="5 55 12 65 19 55" />
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+
       <div className="col-1 h-[98px] ml-0 mt-[437px] relative row-1 w-[517px]">
         <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 517 98">
           <path d={svgPaths.p7893580} fill="var(--fill-0, #1E08B1)" id="Rectangle 7" />
@@ -157,13 +158,15 @@ function Group5() {
         <span className="leading-[normal]">{`Flagship Focus: `}</span>
         <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Innovation, Creativity & Entrepreneurship `}</span>
       </p>
-     <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-[338px] relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
-        <div className="flex-none"> {/* rotate-90 dihapus */}
+
+      {/* Panah 2 (Kiri Bawah) - Versi Panjang */}
+      <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-[338px] relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+        <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <line x1="12" y1="5" x2="12" y2="19" />
-                <polyline points="19 12 12 19 5 12" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
+                <line x1="12" y1="2" x2="12" y2="65" />
+                <polyline points="5 55 12 65 19 55" />
               </svg>
             </div>
           </div>
@@ -200,32 +203,37 @@ function Group6() {
         <span className="leading-[normal]">{`Flagship Focus: `}</span>
         <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`CSR, ESG & Long-Term Impact`}</span>
       </p>
-     <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-[337px] relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
-        <div className="flex-none"> {/* rotate-90 sudah dihapus */}
+      
+      {/* Panah 3 (Kanan Atas) - Versi Panjang */}
+      <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-[337px] relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+        <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <line x1="12" y1="5" x2="12" y2="19" />
-                <polyline points="19 12 12 19 5 12" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
+                <line x1="12" y1="2" x2="12" y2="65" />
+                <polyline points="5 55 12 65 19 55" />
               </svg>
             </div>
           </div>
         </div>
       </div>
-   <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-0 relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
-  <div className="flex-none">
-    <div className="h-0 relative w-[67px]">
-      {/* Width disempitkan dan Height dipanjangkan jadi 67px */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
-        {/* viewBox diubah agar garisnya bisa ditarik panjang ke bawah */}
-        <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
-          <line x1="12" y1="2" x2="12" y2="65" />
-          <polyline points="5 55 12 65 19 55" />
-        </svg>
+
+      {/* Panah 4 (Kanan Bawah) - Versi Panjang */}
+      <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-0 relative row-1 w-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+        <div className="flex-none">
+          <div className="h-0 relative w-[67px]">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
+                <line x1="12" y1="2" x2="12" y2="65" />
+                <polyline points="5 55 12 65 19 55" />
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  );
+}
 
 function Judul() {
   return (
