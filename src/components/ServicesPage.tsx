@@ -157,9 +157,9 @@ function Group5() {
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <path d="M12 4v16" />
-                <path d="m19 13-7 7-7-7" />
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <polyline points="19 12 12 19 5 12" />
               </svg>
             </div>
           </div>
@@ -181,9 +181,9 @@ function Group5() {
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <path d="M12 4v16" />
-                <path d="m19 13-7 7-7-7" />
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <polyline points="19 12 12 19 5 12" />
               </svg>
             </div>
           </div>
@@ -224,9 +224,9 @@ function Group7() {
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <path d="M12 4v16" />
-                <path d="m19 13-7 7-7-7" />
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <polyline points="19 12 12 19 5 12" />
               </svg>
             </div>
           </div>
@@ -236,9 +236,9 @@ function Group7() {
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <path d="M12 4v16" />
-                <path d="m19 13-7 7-7-7" />
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <polyline points="19 12 12 19 5 12" />
               </svg>
             </div>
           </div>
