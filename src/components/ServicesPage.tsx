@@ -153,21 +153,18 @@ function Group5() {
         <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">Flagship Focus:</span>
         <span className="leading-[normal]">{` Employability, Soft Skills & Career Readiness`}</span>
       </p>
-      
-      {/* Panah 1 */}
       <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-[338px] relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
-                <line x1="12" y1="2" x2="12" y2="65" />
-                <polyline points="5 55 12 65 19 55" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
         </div>
       </div>
-
       <div className="col-1 h-[98px] ml-0 mt-[437px] relative row-1 w-[517px]">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 517 98">
           <path d={svgPaths.p7893580} fill="var(--fill-0, #1E08B1)" id="Rectangle 7" />
@@ -180,15 +177,13 @@ function Group5() {
         <span className="leading-[normal]">{`Flagship Focus: `}</span>
         <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Innovation, Creativity & Entrepreneurship `}</span>
       </p>
-      
-      {/* Panah 2 */}
       <div className="col-1 flex h-[67px] items-center justify-center ml-[245px] mt-0 relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
-                <line x1="12" y1="2" x2="12" y2="65" />
-                <polyline points="5 55 12 65 19 55" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
@@ -225,29 +220,25 @@ function Group7() {
         <span className="leading-[normal]">{`Flagship Focus: `}</span>
         <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`CSR, ESG & Long-Term Impact`}</span>
       </p>
-      
-      {/* Panah 3 */}
       <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-[337px] relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
-                <line x1="12" y1="2" x2="12" y2="65" />
-                <polyline points="5 55 12 65 19 55" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Panah 4 */}
       <div className="col-1 flex h-[67px] items-center justify-center ml-[273px] mt-0 relative row-1 w-0 arrow-bounce" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "21.59375" } as React.CSSProperties}>
         <div className="flex-none">
           <div className="h-0 relative w-[67px]">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36px] h-[67px]">
-              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 67">
-                <line x1="12" y1="2" x2="12" y2="65" />
-                <polyline points="5 55 12 65 19 55" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px]">
+              <svg className="w-full h-full text-[#1e08b1]" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M12 4v16" />
+                <path d="m19 13-7 7-7-7" />
               </svg>
             </div>
           </div>
