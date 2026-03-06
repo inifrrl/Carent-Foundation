@@ -9,11 +9,11 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
 function Group() {
   return (
     // FIX: Menggunakan posisi top-[145px] normal tanpa class "contents" agar posisi gampang diatur
-    <div className="absolute left-[156px] top-[145px] z-10">
-      <div className="font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[25px] leading-[1]">
+    <div className="absolute left-[156px] top-[100px] z-10">
+      <div className="font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[30px] leading-[1]">
         PROBLEM
       </div>
-      <div className="font-['Work_Sans',sans-serif] font-normal text-[#1e08b1] text-[21.8px] leading-[1] mt-1">
+      <div className="font-['Work_Sans',sans-serif] font-normal text-[#1e08b1] text-[27px] leading-[1] mt-1">
         STATEMENT
       </div>
       <div className="absolute h-[32px] left-[180px] top-[5px] w-[27px] pointer-events-none">
