@@ -8,7 +8,7 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
 
 function Group() {
   return (
-    <div className="absolute contents left-[156px] top-[80px]">
+    <div className="absolute contents left-[156px] top-[60px]">
       <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[129.6px] w-[219px]">
         <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
       </div>
