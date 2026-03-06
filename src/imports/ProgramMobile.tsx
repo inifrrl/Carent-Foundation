@@ -6,22 +6,18 @@ import img131 from "figma:asset/0f1ed81bdf60031f139fb72358d40a80469e0710.png";
 import imgUntitledDesign131 from "figma:asset/9131770f5fc35500322b939d693db8d50663d1a1.png";
 import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df12f0a8c.png";
 
- function Group() {
+function Group() {
   return (
-    <div className="absolute contents left-[156px] top-[40px]">
-      {/* STATEMENT: Koordinat top dikurangi agar naik ke atas */}
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[110px] w-[219px]">
-        <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
+    // FIX: Menggunakan posisi top-[145px] normal tanpa class "contents" agar posisi gampang diatur
+    <div className="absolute left-[156px] top-[145px] z-10">
+      <div className="font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[25px] leading-[1]">
+        PROBLEM
       </div>
-      {/* PROBLEM: Koordinat top dikurangi agar naik ke atas */}
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[95px] w-[209.194px]">
-        <p className="leading-[normal] whitespace-pre-wrap">PROBLEM</p>
+      <div className="font-['Work_Sans',sans-serif] font-normal text-[#1e08b1] text-[21.8px] leading-[1] mt-1">
+        STATEMENT
       </div>
-      {/* LOGO Samping Problem Statement dikurangi agar ikut naik */}
-      <div className="absolute h-[32.227px] left-[337.68px] top-[60px] w-[27.453px]" data-name="Logo/Logo Carent 1">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[178.63%] left-[-50.5%] max-w-none top-[-38.75%] w-[209.7%]" src={imgLogoLogoCarent1} />
-        </div>
+      <div className="absolute h-[32px] left-[180px] top-[5px] w-[27px] pointer-events-none">
+        <img alt="Logo" className="absolute h-[178%] left-[-50%] max-w-none top-[-38%] w-[209%]" src={imgLogoLogoCarent1} />
       </div>
     </div>
   );
