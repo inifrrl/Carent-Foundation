@@ -10,15 +10,15 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
   return (
     <div className="absolute contents left-[156px] top-[40px]">
       {/* STATEMENT: Koordinat top dikurangi agar naik ke atas */}
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[85px] w-[219px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[105px] w-[219px]">
         <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
       </div>
       {/* PROBLEM: Koordinat top dikurangi agar naik ke atas */}
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[60px] w-[209.194px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[80px] w-[209.194px]">
         <p className="leading-[normal] whitespace-pre-wrap">PROBLEM</p>
       </div>
       {/* LOGO Samping Problem Statement dikurangi agar ikut naik */}
-      <div className="absolute h-[32.227px] left-[337.68px] top-[40px] w-[27.453px]" data-name="Logo/Logo Carent 1">
+      <div className="absolute h-[32.227px] left-[337.68px] top-[60px] w-[27.453px]" data-name="Logo/Logo Carent 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[178.63%] left-[-50.5%] max-w-none top-[-38.75%] w-[209.7%]" src={imgLogoLogoCarent1} />
         </div>
