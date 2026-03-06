@@ -1,10 +1,12 @@
 import svgPaths from "./svg-y2mbbfvnp5";
-import imgLogoLogoCarent1 from "figma:asset/38078f032e3068fa9a87b89156bd5ca10daeccdf.png";
-import imgPazelll41 from "figma:asset/5d6fa3d5c0e6b58b1c064fa4cdaf680ab9a24bf1.png";
-import imgUntitledDesign81 from "figma:asset/013c24719818834bd5e0b1ae12556f425275cff5.png";
-import img131 from "figma:asset/0f1ed81bdf60031f139fb72358d40a80469e0710.png";
-import imgUntitledDesign131 from "figma:asset/9131770f5fc35500322b939d693db8d50663d1a1.png";
-import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df12f0a8c.png";
+
+// PERBAIKAN: Mengubah "figma:asset/..." menjadi "../assets/..."
+import imgLogoLogoCarent1 from "../assets/38078f032e3068fa9a87b89156bd5ca10daeccdf.png";
+import imgPazelll41 from "../assets/5d6fa3d5c0e6b58b1c064fa4cdaf680ab9a24bf1.png";
+import imgUntitledDesign81 from "../assets/013c24719818834bd5e0b1ae12556f425275cff5.png";
+import img131 from "../assets/0f1ed81bdf60031f139fb72358d40a80469e0710.png";
+import imgUntitledDesign131 from "../assets/9131770f5fc35500322b939d693db8d50663d1a1.png";
+import imgUntitledDesign161 from "../assets/f43f5c81f603bfb782c50e74bdda9b9df12f0a8c.png";
 
 function Group() {
   return (
@@ -17,7 +19,7 @@ function Group() {
       </div>
       <div className="absolute h-[32.227px] left-[337.68px] top-[86.27px] w-[27.453px]" data-name="Logo/Logo Carent 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[178.63%] left-[-50.5%] max-w-none top-[-38.75%] w-[209.7%]" src={imgLogoLogoCarent1} />
+          <img alt="Logo Carent" className="absolute h-[178.63%] left-[-50.5%] max-w-none top-[-38.75%] w-[209.7%]" src={imgLogoLogoCarent1} />
         </div>
       </div>
     </div>
@@ -31,7 +33,7 @@ function Group2() {
         <div className="flex-none rotate-90">
           <div className="h-[61px] relative w-[32px]" data-name="Logo">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[178.63%] left-[-81.18%] max-w-none top-[-38.75%] w-[337.1%]" src={imgLogoLogoCarent1} />
+              <img alt="Logo" className="absolute h-[178.63%] left-[-81.18%] max-w-none top-[-38.75%] w-[337.1%]" src={imgLogoLogoCarent1} />
             </div>
           </div>
         </div>
@@ -44,7 +46,7 @@ function Group4() {
   return (
     <div className="absolute contents left-[156.3px] top-[388.85px]">
       <div className="absolute h-[46.83px] left-[156.3px] top-[388.85px] w-[83.293px]" data-name="Untitled design-8 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgUntitledDesign81} />
+        <img alt="Design 8" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgUntitledDesign81} />
       </div>
       <div className="absolute bg-[#fffd47] h-[6.403px] left-[189.24px] top-[482.28px] w-[52.101px]" />
       <div className="absolute bg-[#fffd47] h-[6.403px] left-[161.71px] top-[488.21px] w-[71.27px]" />
@@ -67,7 +69,7 @@ function Group5() {
       <div className="absolute bg-[#fffd47] h-[6.403px] left-[53.82px] top-[501.02px] w-[66.601px]" />
       <div className="absolute h-[46.812px] left-[67.54px] top-[388.85px] w-[49.511px]" data-name="13 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[138.38%] left-[-68.82%] max-w-none top-[-20.9%] w-[232.71%]" src={img131} />
+          <img alt="Design 13" className="absolute h-[138.38%] left-[-68.82%] max-w-none top-[-20.9%] w-[232.71%]" src={img131} />
         </div>
       </div>
       <div className="-translate-x-1/2 -translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[18.971px] justify-end leading-[0] left-[92.41px] text-[#1e08b1] text-[7.465px] text-center top-[467.1px] w-[77.66px]">
@@ -115,7 +117,7 @@ function Group3() {
       </div>
       <div className="absolute h-[47.734px] left-[271.76px] top-[391.46px] w-[48.831px]" data-name="Untitled design-13 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[100.17%] left-[-35.96%] max-w-none top-[-0.08%] w-[174.16%]" src={imgUntitledDesign131} />
+          <img alt="Design 13-1" className="absolute h-[100.17%] left-[-35.96%] max-w-none top-[-0.08%] w-[174.16%]" src={imgUntitledDesign131} />
         </div>
       </div>
       <div className="absolute bg-white border-[#1e08b1] border-[0.233px] border-solid h-[8.3px] left-[262.72px] top-[475.17px] w-[62.669px]" />
@@ -248,7 +250,7 @@ function Group1() {
       <p className="-translate-x-1/2 absolute font-['Work_Sans',sans-serif] font-bold h-[9.086px] leading-[normal] left-[125.85px] text-[7.648px] text-center text-white top-[857.69px] w-[251.693px] whitespace-pre-wrap">{`4. Leadership, Social Innovation & Change Agents Development`}</p>
       <div className="absolute h-[309.812px] left-[282.98px] top-[637.37px] w-[92.023px]" data-name="Untitled design-16 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[108.63%] left-[-299.05%] max-w-none top-[-4.81%] w-[650.48%]" src={imgUntitledDesign161} />
+          <img alt="Design 16-1" className="absolute h-[108.63%] left-[-299.05%] max-w-none top-[-4.81%] w-[650.48%]" src={imgUntitledDesign161} />
         </div>
       </div>
       <p className="-translate-x-1/2 absolute font-['Work_Sans',sans-serif] font-bold h-[9.086px] leading-[normal] left-[91.85px] text-[7.648px] text-center text-white top-[623.65px] w-[176.354px] whitespace-pre-wrap">1. Future-Ready Youth Capacity Development</p>
@@ -283,7 +285,7 @@ export default function ProgramMobile() {
       
       <div className="absolute h-[137px] left-[27px] top-[91px] w-[142px]" data-name="pazelll 4 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-full left-[-14.08%] max-w-none top-0 w-[146.33%]" src={imgPazelll41} />
+          <img alt="Pazell 4" className="absolute h-full left-[-14.08%] max-w-none top-0 w-[146.33%]" src={imgPazelll41} />
         </div>
       </div>
 
