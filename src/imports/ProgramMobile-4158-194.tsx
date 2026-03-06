@@ -285,7 +285,7 @@ export default function ProgramMobile() {
         </p>
       </div>
       <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[87px] justify-end leading-[0] left-[89px] text-[#1e08b1] text-[0px] text-justify top-[310px] tracking-[0.85px] w-[277px]">
-        <p className="text-[8.5px] whitespace-pre-wrap">
+        <p className="text-[7px] whitespace-pre-wrap">
           <span className="leading-[normal]">{`The core issue is a severe `}</span>
           <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">skills mismatch</span>
           <span className="leading-[normal]">. Graduates often lack both the technical proficiency and essential soft skills—such as leadership and problem-solving—that modern employers demand. As automation and digital transformation reshape industries, traditional education pathways are proving insufficient. Without urgent intervention to bridge these gaps, Indonesia’s potential demographic dividend risks devolving into a demographic burden, leading to economic stagnation and increased inequality.</span>
