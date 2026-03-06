@@ -9,12 +9,13 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
 function Group() {
   return (
     <div className="absolute contents left-[156px] top-[80px]">
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[129.6px] w-[219px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[129.6px] w-[219px]">
         <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[107.25px] w-[209.194px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[107.25px] w-[209.194px]">
         <p className="leading-[normal] whitespace-pre-wrap">PROBLEM</p>
       </div>
+    </div>
   );
 }
 
@@ -278,7 +279,7 @@ export default function ProgramMobile() {
           <img alt="" className="absolute h-full left-[-14.08%] max-w-none top-0 w-[146.33%]" src={imgPazelll41} />
         </div>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[70px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[8.786px] text-justify top-[213px] w-[210px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[80px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[8.786px] text-justify top-[213px] w-[210px]">
         <p className="whitespace-pre-wrap">
           <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">{`Indonesia faces a critical youth employment crisis `}</span>
           <span className="leading-[normal]">that threatens its Indonesia Emas 2045 vision. Despite government efforts, youth unemployment remains high at 16.16%, while nearly 23.79% of youth (aged 16–30) are classified as NEET (Not in Employment, Education, or Training), signaling a failure to transition from education to the labor market.</span>
