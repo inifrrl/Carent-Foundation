@@ -1,21 +1,13 @@
-import svgPaths from "./svg-y2mbbfvnp5";
-import imgLogoLogoCarent1 from "figma:asset/38078f032e3068fa9a87b89156bd5ca10daeccdf.png";
-import imgPazelll41 from "figma:asset/5d6fa3d5c0e6b58b1c064fa4cdaf680ab9a24bf1.png";
-import imgUntitledDesign81 from "figma:asset/013c24719818834bd5e0b1ae12556f425275cff5.png";
-import img131 from "figma:asset/0f1ed81bdf60031f139fb72358d40a80469e0710.png";
-import imgUntitledDesign131 from "figma:asset/9131770f5fc35500322b939d693db8d50663d1a1.png";
-import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df12f0a8c.png";
-
 function Group() {
   return (
     <div className="absolute contents left-[156px] top-[80px]">
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[129.6px] w-[219px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[145px] w-[219px]">
         <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[107.25px] w-[209.194px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[115px] w-[209.194px]">
         <p className="leading-[normal] whitespace-pre-wrap">PROBLEM</p>
       </div>
-      <div className="absolute h-[32.227px] left-[337.68px] top-[86.27px] w-[27.453px]" data-name="Logo/Logo Carent 1">
+      <div className="absolute h-[32.227px] left-[337.68px] top-[95px] w-[27.453px]" data-name="Logo/Logo Carent 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[178.63%] left-[-50.5%] max-w-none top-[-38.75%] w-[209.7%]" src={imgLogoLogoCarent1} />
         </div>
@@ -24,21 +16,7 @@ function Group() {
   );
 }
 
-function Group2() {
-  return (
-    <div className="absolute contents left-[50px] top-[308px]">
-      <div className="absolute flex h-[32px] items-center justify-center left-[50px] top-[308px] w-[61px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
-        <div className="flex-none rotate-90">
-          <div className="h-[61px] relative w-[32px]" data-name="Logo">
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[178.63%] left-[-81.18%] max-w-none top-[-38.75%] w-[337.1%]" src={imgLogoLogoCarent1} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+// Group2 (Logo di atas Our Solution) SUDAH DIHAPUS
 
 function Group4() {
   return (
@@ -268,7 +246,7 @@ function Group6() {
 
 export default function ProgramMobile() {
   return (
-    <div className="bg-white relative w-full h-[960px] page-transition" data-name="Program Mobile">
+    <div className="bg-white relative w-full h-[1350px] page-transition overflow-x-hidden" data-name="Program Mobile">
       <Group />
       <div className="absolute flex h-[284px] items-center justify-center left-[1.15px] top-[29.5px] w-[110px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
         <div className="flex-none rotate-90">
@@ -284,31 +262,44 @@ export default function ProgramMobile() {
           <img alt="" className="absolute h-full left-[-14.08%] max-w-none top-0 w-[146.33%]" src={imgPazelll41} />
         </div>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[80px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[8.786px] text-justify top-[213px] w-[210px]">
+      
+      {/* TEKS DI BAWAH PROBLEM STATEMENT 1: Diturunkan */}
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[80px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[8.786px] text-justify top-[260px] w-[210px]">
         <p className="whitespace-pre-wrap">
           <span className="font-['Work_Sans',sans-serif] font-bold leading-[normal]">{`Indonesia faces a critical youth employment crisis `}</span>
           <span className="leading-[normal]">that threatens its Indonesia Emas 2045 vision. Despite government efforts, youth unemployment remains high at 16.16%, while nearly 23.79% of youth (aged 16–30) are classified as NEET (Not in Employment, Education, or Training), signaling a failure to transition from education to the labor market.</span>
         </p>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[87px] justify-end leading-[0] left-[89px] text-[#1e08b1] text-[0px] text-justify top-[310px] tracking-[0.85px] w-[277px]">
+      
+      {/* TEKS DI BAWAH PROBLEM STATEMENT 2: Diturunkan */}
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[87px] justify-end leading-[0] left-[89px] text-[#1e08b1] text-[0px] text-justify top-[380px] tracking-[0.85px] w-[277px]">
         <p className="text-[8.5px] whitespace-pre-wrap">
           <span className="leading-[normal]">{`The core issue is a severe `}</span>
           <span className="font-['Work_Sans',sans-serif] font-bold leading-[normal]">skills mismatch</span>
           <span className="leading-[normal]">. Graduates often lack both the technical proficiency and essential soft skills—such as leadership and problem-solving—that modern employers demand. As automation and digital transformation reshape industries, traditional education pathways are proving insufficient. Without urgent intervention to bridge these gaps, Indonesia's potential demographic dividend risks devolving into a demographic burden, leading to economic stagnation and increased inequality.</span>
         </p>
       </div>
-      <Group2 />
-      <Group7 />
-      <div className="absolute h-[58px] left-0 top-[547px] w-[137px]">
+      
+      {/* OUR SOLUTION: Diturunkan */}
+      <div className="translate-y-[100px]">
+        <Group7 />
+      </div>
+      
+      {/* SETENGAH LINGKARAN DIKEMBALIKAN: Top 650px agar sejajar dengan Program Focus Area */}
+      <div className="absolute h-[58px] left-0 top-[650px] w-[137px]">
         <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 137 58">
           <path d={svgPaths.p1d42880} fill="#1E08B1" id="Ellipse 1" />
         </svg>
       </div>
-      <p className="absolute font-['Work_Sans',sans-serif] font-bold h-[13px] leading-[0] left-[151px] text-[#1e08b1] text-[15.17px] top-[547px] w-[179px] whitespace-pre-wrap">
+      
+      {/* JUDUL PROGRAM FOCUS AREA: Lebar diluruskan w-max, Top 650px */}
+      <p className="absolute font-['Work_Sans',sans-serif] font-bold h-[13px] leading-[0] left-[151px] text-[#1e08b1] text-[15.17px] top-[650px] w-max whitespace-pre-wrap">
         <span className="leading-[12.895px]">{`PROGRAM `}</span>
         <span className="font-['Work_Sans',sans-serif] font-medium leading-[12.895px]">FOCUS AREA</span>
       </p>
-      <p className="absolute font-['Work_Sans',sans-serif] font-medium h-[47px] leading-[0] left-[143px] text-[#1e08b1] text-[6.643px] text-justify top-[567px] w-[214px] whitespace-pre-wrap">
+      
+      {/* TEKS DI BAWAH PROGRAM FOCUS AREA: Diturunkan Top 680px */}
+      <p className="absolute font-['Work_Sans',sans-serif] font-medium h-[47px] leading-[0] left-[143px] text-[#1e08b1] text-[6.643px] text-justify top-[680px] w-[214px] whitespace-pre-wrap">
         <span className="leading-[normal]">{`Carent Foundation Indonesia structures its programs around `}</span>
         <span className="font-['Work_Sans',sans-serif] font-bold leading-[normal]">four strategic focus areas</span>
         <span className="leading-[normal]">{` designed to address critical gaps in youth employability, workforce readiness, and ecosystem alignment. Each focus area is `}</span>
@@ -317,7 +308,12 @@ export default function ProgramMobile() {
         <span className="font-['Work_Sans',sans-serif] font-bold leading-[normal]">{` scalable`}</span>
         <span className="leading-[normal]">, ensuring long-term contribution to Indonesia's human capital development.</span>
       </p>
-      <Group6 />
+      
+      {/* LIST BAWAH: Diturunkan */}
+      <div className="translate-y-[120px]">
+        <Group6 />
+      </div>
+      
     </div>
   );
 }
