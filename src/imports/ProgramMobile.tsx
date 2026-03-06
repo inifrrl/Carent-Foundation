@@ -287,7 +287,7 @@ export default function ProgramMobile() {
       <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[80px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[8.786px] text-justify top-[213px] w-[210px]">
         <p className="whitespace-pre-wrap">
           <span className="font-['Work_Sans',sans-serif] font-bold leading-[normal]">{`Indonesia faces a critical youth employment crisis `}</span>
-          <span className="leading-[normal]">that threatens its Indonesia Emas 2045 vision. Despite government efforts, youth unemployment remains high at 16.16%, while nearly 23.79% of youth (aged 16–30) are classified as NEET (Not in Employment, Education, or Training), signaling a failure to transition from education to the labor.</span>
+          <span className="leading-[normal]">that threatens its Indonesia Emas 2045 vision. Despite government efforts, youth unemployment remains high at 16.16%, while nearly 23.79% of youth (aged 16–30) are classified as NEET (Not in Employment, Education, or Training), signaling a failure to transition from education to the labor market.</span>
         </p>
       </div>
       <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[87px] justify-end leading-[0] left-[89px] text-[#1e08b1] text-[0px] text-justify top-[310px] tracking-[0.85px] w-[277px]">
