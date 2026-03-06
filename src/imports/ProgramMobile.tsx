@@ -9,10 +9,10 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
 function Group() {
   return (
     <div className="absolute contents left-[156px] top-[80px]">
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[20px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[20px] top-[140px] w-[219px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[20px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[20px] top-[130px] w-[219px]">
         <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[25px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[24px] top-[120px] w-[209.194px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[25px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[24px] top-[110px] w-[209.194px]">
         <p className="leading-[normal] whitespace-pre-wrap">PROBLEM</p>
       </div>
       <div className="absolute h-[32.227px] left-[337.68px] top-[86.27px] w-[27.453px]" data-name="Logo/Logo Carent 1">
