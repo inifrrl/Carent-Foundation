@@ -8,13 +8,18 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
 
 function Group() {
   return (
-    <div className="absolute left-[156px] top-[150px] z-10 flex flex-col">
-      <span className="font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[25px] leading-tight">
-        PROBLEM
-      </span>
-      <span className="font-['Work_Sans',sans-serif] font-normal text-[#1e08b1] text-[21.8px] leading-tight">
-        STATEMENT
-      </span>
+    <div className="absolute contents left-[156px] top-[80px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[129.6px] w-[219px]">
+        <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
+      </div>
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[107.25px] w-[209.194px]">
+        <p className="leading-[normal] whitespace-pre-wrap">PROBLEM</p>
+      </div>
+      <div className="absolute h-[32.227px] left-[337.68px] top-[86.27px] w-[27.453px]" data-name="Logo/Logo Carent 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[178.63%] left-[-50.5%] max-w-none top-[-38.75%] w-[209.7%]" src={imgLogoLogoCarent1} />
+        </div>
+      </div>
     </div>
   );
 }
