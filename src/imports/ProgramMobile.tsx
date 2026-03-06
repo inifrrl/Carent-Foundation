@@ -8,7 +8,7 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
 
 function Group() {
   return (
-    <div className="absolute left-[156px] top-[100px] z-10 flex flex-col">
+    <div className="absolute left-[156px] top-[10px] z-10 flex flex-col">
       <span className="font-['Work_Sans',sans-serif] font-semibold text-[#1e08b1] text-[25px] leading-tight">
         PROBLEM
       </span>
