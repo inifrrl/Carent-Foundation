@@ -24,6 +24,21 @@ function Group() {
   );
 }
 
+function Group2() {
+  return (
+    <div className="absolute contents left-[50px] top-[308px]">
+      <div className="absolute flex h-[32px] items-center justify-center left-[50px] top-[308px] w-[61px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+        <div className="flex-none rotate-90">
+          <div className="h-[61px] relative w-[32px]" data-name="Logo">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[178.63%] left-[-81.18%] max-w-none top-[-38.75%] w-[337.1%]" src={imgLogoLogoCarent1} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function Group4() {
   return (
