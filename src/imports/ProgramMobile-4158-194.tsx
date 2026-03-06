@@ -304,7 +304,7 @@ export default function ProgramMobile() {
           <path d={svgPaths.p1d42880} fill="var(--fill-0, #1E08B1)" id="Ellipse 1" />
         </svg>
       </div>
-      <p className="absolute font-['Work_Sans:Bold',sans-serif] font-bold h-[13px] leading-[0] left-[151px] text-[#1e08b1] text-[15.17px] top-[547px] w-[179px] whitespace-pre-wrap">
+      <p className="absolute font-['Work_Sans:Bold',sans-serif] font-bold h-[13px] leading-[0] left-[151px] text-[#1e08b1] text-[15.17px] top-[547px] w-[197px] whitespace-pre-wrap">
         <span className="leading-[12.895px]">{`PROGRAM FOCUS AREA `}</span>
        
       </p>
