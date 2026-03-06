@@ -305,8 +305,8 @@ export default function ProgramMobile() {
         </svg>
       </div>
       <p className="absolute font-['Work_Sans:Bold',sans-serif] font-bold h-[13px] leading-[0] left-[151px] text-[#1e08b1] text-[15.17px] top-[547px] w-[179px] whitespace-pre-wrap">
-        <span className="leading-[12.895px]">{`PROGRAM `}</span>
-        <span className="font-['Work_Sans:Medium',sans-serif] font-medium leading-[12.895px]">FOCUS AREA</span>
+        <span className="leading-[12.895px]">{`PROGRAM FOCUS AREA `}</span>
+       
       </p>
       <p className="absolute font-['Work_Sans:Medium',sans-serif] font-medium h-[47px] leading-[0] left-[143px] text-[#1e08b1] text-[6.643px] text-justify top-[567px] w-[214px] whitespace-pre-wrap">
         <span className="leading-[normal]">{`Carent Foundation Indonesia structures its programs around `}</span>
