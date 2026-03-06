@@ -1,6 +1,6 @@
+import React from "react";
 import svgPaths from "./svg-y2mbbfvnp5";
 
-// PERBAIKAN: Mengubah "figma:asset/..." menjadi "../assets/..."
 import imgLogoLogoCarent1 from "../assets/38078f032e3068fa9a87b89156bd5ca10daeccdf.png";
 import imgPazelll41 from "../assets/5d6fa3d5c0e6b58b1c064fa4cdaf680ab9a24bf1.png";
 import imgUntitledDesign81 from "../assets/013c24719818834bd5e0b1ae12556f425275cff5.png";
