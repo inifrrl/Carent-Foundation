@@ -1,10 +1,13 @@
+import React from "react";
 import svgPaths from "./svg-y2mbbfvnp5";
-import imgLogoLogoCarent1 from "figma:asset/38078f032e3068fa9a87b89156bd5ca10daeccdf.png";
-import imgPazelll41 from "figma:asset/5d6fa3d5c0e6b58b1c064fa4cdaf680ab9a24bf1.png";
-import imgUntitledDesign81 from "figma:asset/013c24719818834bd5e0b1ae12556f425275cff5.png";
-import img131 from "figma:asset/0f1ed81bdf60031f139fb72358d40a80469e0710.png";
-import imgUntitledDesign131 from "figma:asset/9131770f5fc35500322b939d693db8d50663d1a1.png";
-import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df12f0a8c.png";
+
+// PERBAIKAN: Semua figma:asset/... sudah diubah mengarah ke folder assets lokal
+import imgLogoLogoCarent1 from "../assets/38078f032e3068fa9a87b89156bd5ca10daeccdf.png";
+import imgPazelll41 from "../assets/5d6fa3d5c0e6b58b1c064fa4cdaf680ab9a24bf1.png";
+import imgUntitledDesign81 from "../assets/013c24719818834bd5e0b1ae12556f425275cff5.png";
+import img131 from "../assets/0f1ed81bdf60031f139fb72358d40a80469e0710.png";
+import imgUntitledDesign131 from "../assets/9131770f5fc35500322b939d693db8d50663d1a1.png";
+import imgUntitledDesign161 from "../assets/f43f5c81f603bfb782c50e74bdda9b9df12f0a8c.png";
 
 function Group() {
   return (
