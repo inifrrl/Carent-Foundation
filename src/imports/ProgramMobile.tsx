@@ -9,10 +9,10 @@ import imgUntitledDesign161 from "figma:asset/f43f5c81f603bfb782c50e74bdda9b9df1
 function Group() {
   return (
     <div className="absolute contents left-[156px] top-[60px]">
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[129.6px] w-[219px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-normal h-[22.347px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[21.802px] top-[110x] w-[219px]">
         <p className="leading-[normal] whitespace-pre-wrap">STATEMENT</p>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[107.25px] w-[209.194px]">
+      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans',sans-serif] font-semibold h-[27.253px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[25.077px] top-[87.75px] w-[209.194px]">
         <p className="leading-[normal] whitespace-pre-wrap">PROBLEM</p>
       </div>
     </div>
