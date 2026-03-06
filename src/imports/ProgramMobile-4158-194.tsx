@@ -24,21 +24,7 @@ function Group() {
   );
 }
 
-function Group2() {
-  return (
-    <div className="absolute contents left-[50px] top-[308px]">
-      <div className="absolute flex h-[32px] items-center justify-center left-[50px] top-[308px] w-[61px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
-        <div className="flex-none rotate-90">
-          <div className="h-[61px] relative w-[32px]" data-name="Logo">
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[178.63%] left-[-81.18%] max-w-none top-[-38.75%] w-[337.1%]" src={imgLogoLogoCarent1} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+// Group2 (Logo di atas Our Solution) sengaja tidak dipanggil di bawah sesuai permintaan
 
 function Group4() {
   return (
@@ -50,8 +36,8 @@ function Group4() {
       <div className="absolute bg-[#fffd47] h-[6.403px] left-[161.71px] top-[488.21px] w-[71.27px]" />
       <div className="absolute bg-[#fffd47] h-[6.403px] left-[161.71px] top-[494.61px] w-[54.313px]" />
       <p className="absolute font-['Work_Sans:Regular',sans-serif] font-normal h-[87.74px] leading-[0] left-[161.71px] text-[#1e08b1] text-[5.132px] top-[469.71px] w-[79.626px] whitespace-pre-wrap">
-        <span className="leading-[normal]">{`To strengthen Indonesia’s youth human capital by producing adaptive, industry-ready, and purpose-driven young professionals who are capable of navigating cross-sector careers, contributing to productivity growth, and advancing `}</span>
-        <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">the national vision of Indonesia Emas 2045.</span>
+        <span className="leading-[normal]">{`To strengthen Indonesia’s youth human capital by producing adaptive, industry-ready, and purpose-driven young professionals who are capable of navigating cross-sector careers, contributing to productivity growth, and advancing `}</span>
+        <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">the national vision of Indonesia Emas 2045.</span>
       </p>
       <div className="-translate-x-1/2 -translate-y-full absolute flex flex-col font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[18.971px] justify-end leading-[0] left-[196.12px] text-[#1e08b1] text-[7.465px] text-center top-[467.1px] w-[77.66px]">
         <p className="leading-[normal] whitespace-pre-wrap">ULTIMATE IMPACT GOAL</p>
@@ -78,7 +64,7 @@ function Group5() {
       <div className="absolute bg-[#fffd47] h-[6.403px] left-[71.76px] top-[494.61px] w-[34.652px]" />
       <p className="absolute font-['Work_Sans:Regular',sans-serif] font-normal h-[88.926px] leading-[0] left-[53.58px] text-[#1e08b1] text-[5.132px] top-[469.71px] w-[90.44px] whitespace-pre-wrap">
         <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">Carent Foundation Indonesia</span>
-        <span className="leading-[normal]">{` adopts an orientation-driven youth development model that moves beyond training delivery toward measurable transformation of human capital. Our solution is designed to intentionally align youth capability development, labor market needs, and national development priorities, ensuring that every intervention produces clear, traceable, and scalable impact.`}</span>
+        <span className="leading-[normal]">{` adopts an orientation-driven youth development model that moves beyond training delivery toward measurable transformation of human capital. Our solution is designed to intentionally align youth capability development, labor market needs, and national development priorities, ensuring that every intervention produces clear, traceable, and scalable impact.`}</span>
       </p>
     </div>
   );
@@ -179,17 +165,17 @@ function Group1() {
         <p className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal] mb-0">Strategic Focus</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p>
-          <span className="leading-[normal] text-[#1e08b1]">{`Develop `}</span>
+          <span className="leading-[normal] text-[#1e08b1]">{`Develop `}</span>
           <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">adaptive, resilient, and industry-ready youth</span>
-          <span className="leading-[normal] text-[#1e08b1]">{` equipped with transferable skills and professional mindset.`}</span>
+          <span className="leading-[normal] text-[#1e08b1]">{` equipped with transferable skills and professional mindset.`}</span>
         </p>
       </div>
       <div className="absolute font-['Work_Sans:Regular',sans-serif] font-normal h-[46.257px] leading-[0] left-[130.64px] text-[#1e08b1] text-[6.555px] top-[641px] w-[117.946px] whitespace-pre-wrap">
         <p className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal] mb-0">Program Orientation</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p>
-          <span className="leading-[normal]">{`Shift youth preparation from academic achievement to `}</span>
-          <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">real-world professional capability.</span>
+          <span className="leading-[normal]">{`Shift youth preparation from academic achievement to `}</span>
+          <span className="font-['Work_Sans:SemiBold',sans-serif] font-semibold leading-[normal]">real-world professional capability.</span>
         </p>
       </div>
       <div className="absolute bg-[#1e08b1] h-[13.216px] left-0 top-[700.2px] w-[229.684px]" />
@@ -197,18 +183,18 @@ function Group1() {
         <p className="leading-[normal] mb-0">Strategic Focus</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">Facilitate i</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">Facilitate i</span>
           <span className="leading-[normal]">ntentional and supported transitions</span>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` from education to employment and across career pathways.`}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` from education to employment and across career pathways.`}</span>
         </p>
       </div>
       <div className="absolute font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[46.257px] leading-[0] left-[130.08px] text-[#1e08b1] text-[6.555px] top-[719.2px] w-[118.51px] whitespace-pre-wrap">
         <p className="leading-[normal] mb-0">Program Orientation</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Position youth development as a `}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Position youth development as a `}</span>
           <span className="leading-[normal]">shared responsibility</span>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` across sectors`}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` across sectors`}</span>
         </p>
       </div>
       <div className="absolute bg-[#1e08b1] h-[13.216px] left-0 top-[778.39px] w-[233.352px]" />
@@ -216,18 +202,18 @@ function Group1() {
         <p className="leading-[normal] mb-0">Strategic Focus</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Build a `}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Build a `}</span>
           <span className="leading-[normal]">functional and collaborative talent ecosystem</span>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` connecting youth, industry, and policymakers.`}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` connecting youth, industry, and policymakers.`}</span>
         </p>
       </div>
       <div className="absolute font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[46.257px] leading-[0] left-[130.08px] text-[#1e08b1] text-[6.555px] top-[797.39px] w-[118.51px] whitespace-pre-wrap">
         <p className="leading-[normal] mb-0">Program Orientation</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Position youth development as a `}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Position youth development as a `}</span>
           <span className="leading-[normal]">shared responsibility</span>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` across sectors`}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` across sectors`}</span>
         </p>
       </div>
       <div className="absolute bg-[#1e08b1] h-[13.216px] left-0 top-[856.04px] w-[251.693px]" />
@@ -235,9 +221,9 @@ function Group1() {
         <p className="leading-[normal] mb-0">Strategic Focus</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Cultivate `}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{`Cultivate `}</span>
           <span className="leading-[normal]">ethical leaders and changemakers</span>
-          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` who contribute to society beyond employment`}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">{` who contribute to society beyond employment`}</span>
         </p>
       </div>
       <div className="absolute font-['Work_Sans:SemiBold',sans-serif] font-semibold h-[46.257px] leading-[normal] left-[130.08px] text-[#1e08b1] text-[6.555px] top-[875.04px] w-[121.614px] whitespace-pre-wrap">
@@ -267,8 +253,9 @@ function Group6() {
 }
 
 export default function ProgramMobile() {
+  // Height disesuaikan menjadi 1100px agar elemen di bawah tidak terpotong
   return (
-    <div className="bg-white relative size-full" data-name="Program Mobile">
+    <div className="bg-white relative w-full h-[1100px] page-transition overflow-hidden" data-name="Program Mobile">
       <Group />
       <div className="absolute flex h-[284px] items-center justify-center left-[1.15px] top-[29.5px] w-[110px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
         <div className="flex-none rotate-90">
@@ -284,40 +271,60 @@ export default function ProgramMobile() {
           <img alt="" className="absolute h-full left-[-14.08%] max-w-none top-0 w-[146.33%]" src={imgPazelll41} />
         </div>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[80px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[8.786px] text-justify top-[213px] w-[210px]">
-        <p className="whitespace-pre-wrap">
-          <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">{`Indonesia faces a critical youth employment crisis `}</span>
-          <span className="leading-[normal]">that threatens its Indonesia Emas 2045 vision. Despite government efforts, youth unemployment remains high at 16.16%, while nearly 23.79% of youth (aged 16–30) are classified as NEET (Not in Employment, Education, or Training), signaling a failure to transition from education to the labor market.</span>
+      
+      {/* TEKS DI BAWAH PROBLEM STATEMENT: Diturunkan sedikit ke atas (translate-y-[25px]) */}
+      <div className="translate-y-[25px]">
+        <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[80px] justify-end leading-[0] left-[156px] text-[#1e08b1] text-[8.786px] text-justify top-[213px] w-[210px]">
+          <p className="whitespace-pre-wrap">
+            <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">{`Indonesia faces a critical youth employment crisis `}</span>
+            <span className="leading-[normal]">that threatens its Indonesia Emas 2045 vision. Despite government efforts, youth unemployment remains high at 16.16%, while nearly 23.79% of youth (aged 16–30) are classified as NEET (Not in Employment, Education, or Training), signaling a failure to transition from education to the labor market.</span>
+          </p>
+        </div>
+      </div>
+      
+      {/* TEKS BAWAHNYA LAGI: Diturunkan sedikit (translate-y-[45px]) */}
+      <div className="translate-y-[45px]">
+        <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[87px] justify-end leading-[0] left-[89px] text-[#1e08b1] text-[0px] text-justify top-[310px] tracking-[0.85px] w-[277px]">
+          <p className="text-[8.5px] whitespace-pre-wrap">
+            <span className="leading-[normal]">{`The core issue is a severe `}</span>
+            <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">skills mismatch</span>
+            <span className="leading-[normal]">. Graduates often lack both the technical proficiency and essential soft skills—such as leadership and problem-solving—that modern employers demand. As automation and digital transformation reshape industries, traditional education pathways are proving insufficient. Without urgent intervention to bridge these gaps, Indonesia’s potential demographic dividend risks devolving into a demographic burden, leading to economic stagnation and increased inequality.</span>
+          </p>
+        </div>
+      </div>
+      
+      {/* OUR SOLUTION: Diturunkan sedikit (translate-y-[60px]) */}
+      <div className="translate-y-[60px]">
+        <Group7 />
+      </div>
+      
+      {/* PROGRAM FOCUS AREA (Termasuk Setengah Lingkaran): Diturunkan sedikit (translate-y-[80px]) */}
+      <div className="translate-y-[80px]">
+        <div className="absolute h-[58px] left-0 top-[547px] w-[137px]">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 137 58">
+            <path d={svgPaths.p1d42880} fill="var(--fill-0, #1E08B1)" id="Ellipse 1" />
+          </svg>
+        </div>
+        <p className="absolute font-['Work_Sans:Bold',sans-serif] font-bold h-[13px] leading-[0] left-[151px] text-[#1e08b1] text-[15.17px] top-[547px] w-max whitespace-pre-wrap">
+          <span className="leading-[12.895px]">{`PROGRAM `}</span>
+          <span className="font-['Work_Sans:Medium',sans-serif] font-medium leading-[12.895px]">FOCUS AREA</span>
+        </p>
+        <p className="absolute font-['Work_Sans:Medium',sans-serif] font-medium h-[47px] leading-[0] left-[143px] text-[#1e08b1] text-[6.643px] text-justify top-[567px] w-[214px] whitespace-pre-wrap">
+          <span className="leading-[normal]">{`Carent Foundation Indonesia structures its programs around `}</span>
+          <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">four strategic focus areas</span>
+          <span className="leading-[normal]">{` designed to address critical gaps in youth employability, workforce readiness, and ecosystem alignment. Each focus area is `}</span>
+          <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">{`impact-oriented, industry-linked, `}</span>
+          <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">and</span>
+          <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">{` scalable`}</span>
+          <span className="leading-[normal]">, ensuring long-term contribution to Indonesia’s human capital development.</span>
         </p>
       </div>
-      <div className="-translate-y-full absolute flex flex-col font-['Work_Sans:Regular',sans-serif] font-normal h-[87px] justify-end leading-[0] left-[89px] text-[#1e08b1] text-[0px] text-justify top-[310px] tracking-[0.85px] w-[277px]">
-        <p className="text-[8.5px] whitespace-pre-wrap">
-          <span className="leading-[normal]">{`The core issue is a severe `}</span>
-          <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">skills mismatch</span>
-          <span className="leading-[normal]">. Graduates often lack both the technical proficiency and essential soft skills—such as leadership and problem-solving—that modern employers demand. As automation and digital transformation reshape industries, traditional education pathways are proving insufficient. Without urgent intervention to bridge these gaps, Indonesia’s potential demographic dividend risks devolving into a demographic burden, leading to economic stagnation and increased inequality.</span>
-        </p>
+      
+      {/* LIST STRATEGIC FOCUS: Diturunkan sedikit (translate-y-[100px]) */}
+      <div className="translate-y-[100px]">
+        <Group6 />
       </div>
-      <Group2 />
-      <Group7 />
-      <div className="absolute h-[58px] left-0 top-[547px] w-[137px]">
-        <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 137 58">
-          <path d={svgPaths.p1d42880} fill="var(--fill-0, #1E08B1)" id="Ellipse 1" />
-        </svg>
-      </div>
-      <p className="absolute font-['Work_Sans:Bold',sans-serif] font-bold h-[13px] leading-[0] left-[151px] text-[#1e08b1] text-[15.17px] top-[547px] w-[179px] whitespace-pre-wrap">
-        <span className="leading-[12.895px]">{`PROGRAM `}</span>
-        <span className="font-['Work_Sans:Medium',sans-serif] font-medium leading-[12.895px]">FOCUS AREA</span>
-      </p>
-      <p className="absolute font-['Work_Sans:Medium',sans-serif] font-medium h-[47px] leading-[0] left-[143px] text-[#1e08b1] text-[6.643px] text-justify top-[567px] w-[214px] whitespace-pre-wrap">
-        <span className="leading-[normal]">{`Carent Foundation Indonesia structures its programs around `}</span>
-        <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">four strategic focus areas</span>
-        <span className="leading-[normal]">{` designed to address critical gaps in youth employability, workforce readiness, and ecosystem alignment. Each focus area is `}</span>
-        <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">{`impact-oriented, industry-linked, `}</span>
-        <span className="font-['Work_Sans:Regular',sans-serif] font-normal leading-[normal]">and</span>
-        <span className="font-['Work_Sans:Bold',sans-serif] font-bold leading-[normal]">{` scalable`}</span>
-        <span className="leading-[normal]">, ensuring long-term contribution to Indonesia’s human capital development.</span>
-      </p>
-      <Group6 />
+      
     </div>
   );
 }
